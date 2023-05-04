@@ -1,0 +1,93 @@
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FDE2F3;
+}
+.bg{
+    background-color: #2A2F4F;
+}
+.navbar{
+    height: 50px;
+    width: auto;
+}
+.but{
+    color: white;
+}
+.first{
+	background: linear-gradient(-45deg, #070A52, #00FFCA, #088395, #F15A59);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+	height: 125vh;
+    margin-top: -50px;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.content{
+	padding-top: 125px;
+}
+.border{
+    height: 500px;
+}
+.lap-div{
+    
+   margin-left: 70%;
+}
+.laptop{
+    border-radius: 20px;
+}
+.Skills{
+	background-color: #917FB3; /*#F9D949*/
+	
+}
+.experience{
+  background-color: #917FB3;
+}
+.projects{
+	background-color: #a295b9;
+}
+.card{
+	border:1px solid #ccc;
+	border-radius:0.5rem;
+	padding:1rem;
+	box-shadow: 0 0 10px #ccc;
+	box-shadow:0 0 10px #ccc;
+	transition: all 0.2s;
+	}
+	
+	.card:hover{
+	transform: scale(1.1);
+	}
+	
+	@media screen and (max-width: 568px) {
+	 .card{ 
+	 margin:1rem; 
+	 } 
+	 .card:hover{
+	transform: none;
+	}
+	
+	}
+.resume{
+	background-color: #a295b9;
+	margin-top: -18px;
+}
+.profile{
+	padding-top: 50px;
+}
+.about{
+	background-color: #a295b9;
+	margin-top: -17px;
+}
+.footer{
+	background-color: #7174d3;
+}
